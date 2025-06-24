@@ -89,7 +89,7 @@ Die Komponente soll einen `@Input`-Parameter `users` entgegennehmen, der vom Typ
 
 ---
 
-e. Nun müssen wir die `getAllUsers()`-Methode aus dem Nutzerservice in der `.ts`-Datei der gerade Appkomponente aufrufen und die erhaltenen Nutzerdaten in einer globalen Variable `users` speichern, sodass wir die Nutzerdaten im nächsten Schritt der `user-list`-Komponente übergeben können.
+e. Nun müssen wir die `getAllUsers()`-Methode aus dem Nutzerservice in der `.ts`-Datei der Appkomponente aufrufen und die erhaltenen Nutzerdaten in einer globalen Variable `users` speichern, sodass wir die Nutzerdaten im nächsten Schritt der `user-list`-Komponente übergeben können.
 
 ---
 
