@@ -38,7 +38,7 @@ b. Erstelle eine `index.js` und starte darin den Express-Server auf Port `3000`.
 
 ---
 
-c. Erstelle eine `users.js`. Diese Datei imitiert eine Datenbank und enthält unsere Nutzerdaten. Erstelle eine Model-Klasse `model/user.model.ts`, die den Aufbau eines Nutzers beschreibt. Erstelle nun in der `users.js` eine Variable `users` vom Datentyp `User` und speichere darin drei oder mehr Demonutzer mit ausgedachten IDs, Namen, E-Mails, etc.
+c. Erstelle eine `users.js`. Diese Datei imitiert eine Datenbank und enthält unsere Nutzerdaten. Erstelle im Frontend eine Model-Klasse `model/user.model.ts`, die den Aufbau eines Nutzers beschreibt. Erstelle nun in der `users.js` im Backend eine Variable `users` vom Datentyp array und speichere darin drei oder mehr Demonutzer mit ausgedachten IDs, Namen, E-Mails, etc.
 
 ---
 
@@ -89,7 +89,7 @@ Die Komponente soll einen `@Input`-Parameter `users` entgegennehmen, der vom Typ
 
 ---
 
-e. Nun müssen wir die `getAllUsers()`-Methode aus dem Nutzerservice in der `.ts`-Datei der gerade Appkomponente aufrufen und die erhaltenen Nutzerdaten in einer globalen Variable `users` speichern, sodass wir die Nutzerdaten im nächsten Schritt der `user-list`-Komponente übergeben können.
+e. Nun müssen wir die `getAllUsers()`-Methode aus dem Nutzerservice in der `.ts`-Datei der Appkomponente aufrufen und die erhaltenen Nutzerdaten in einer globalen Variable `users` speichern, sodass wir die Nutzerdaten im nächsten Schritt der `user-list`-Komponente übergeben können.
 
 ---
 
