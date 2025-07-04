@@ -123,7 +123,7 @@ d. Erstelle einen GET-Endpunkt `/notes`der alle in der `notes.js` befindlichen D
 
 ---
 
-e. Erstelle GET-Endpunkte `/notes/:id` und `/notes/:name`, die Notizen abhängig von ID, bzw. Name der Stadt zurückggeben.
+e. Erstelle GET-Endpunkte `/notes/id/:id` und `/notes/city/:name`, die Notizen abhängig von ID, bzw. Name der Stadt zurückggeben.
 
 <details>
     <summary>⚠️ Hinweis</summary>
@@ -132,19 +132,24 @@ e. Erstelle GET-Endpunkte `/notes/:id` und `/notes/:name`, die Notizen abhängig
 
 ---
 
-e. Erstelle PUT-Endpunkte `/notes/:id` und `/notes/:name`, die es ermöglichen Notizen für eine Stadt zu aktualisieren.
+f. Erstelle POST- und PUT-Endpunkte (z.B für PUT `/notes/id/:id/:noteId` und `/notes/city/:name/:noteId`), die es ermöglichen Notizen für eine Stadt anzulegen, bzw. zu aktualisieren.
+
+<details>
+    <summary>⚠️ Hinweis</summary>
+    Überlege, wie die Pfade der Endpunkte genau aussehen sollten und welche Variablen sie enthalten sollten.
+</details>
 
 ---
 
-f. Erstelle DELETE-Endpunkte `/notes/:id/:noteId` und `/notes/:name/:noteId`, die das Löschen einer Notiz einer Stadt ermöglichen.
+g. Erstelle DELETE-Endpunkte `/notes/id/:id/:noteId` und `/notes/city/:name/:noteId`, die das Löschen einer Notiz einer Stadt ermöglichen.
 
 ---
 
-g. Überlege dir, wie die Funktionen der in den vorherigen Teilaufgaben erstellten Endpunkte sinnvoll in das User-Interface integriert werden können und implementiere die Funktionen in das Frontend.
+h. Überlege dir, wie die Funktionen der in den vorherigen Teilaufgaben erstellten Endpunkte sinnvoll in das User-Interface integriert werden können und implementiere die Funktionen in das Frontend.
 
 ---
 
-h. Erstelle einen `services/notes.service.ts` und darin Methoden, um die gerade erstellen Endpunkte im Backend anzusprechen. Nutze dafür den Angular `HttpClient` und mindestens einmal die native `fetch()`-Methode
+i. Erstelle einen `services/notes.service.ts` und darin Methoden, um die gerade erstellen Endpunkte im Backend anzusprechen. Nutze dafür den Angular `HttpClient` und mindestens einmal die native `fetch()`-Methode
 
 ## Aufgabe 5
 
@@ -152,7 +157,7 @@ a. Erstelle im Frontend eine Seite `/cities`, die alle Städte, inklusive Wetter
 
 ---
 
-b. Binde die Notizen sinnvoll in dein User-Interface ein, sodass sie in einer `weather-card` angezeigt werden können.
+b. Binde die Notizen sinnvoll in dein User-Interface ein.
 
 ---
 
