@@ -140,8 +140,20 @@ f. Erstelle DELETE-Endpunkte `/notes/:id/:noteId` und `/notes/:name/:noteId`, di
 
 ---
 
-g. Überlege dir, wie die Funktionen der in den vorherigen Teilaufgaben erstellen Endpunkte sinnvoll in das User-Interface integriert werden können und implementiere die Funktionen in das Frontend.
+g. Überlege dir, wie die Funktionen der in den vorherigen Teilaufgaben erstellten Endpunkte sinnvoll in das User-Interface integriert werden können und implementiere die Funktionen in das Frontend.
 
 ---
 
 h. Erstelle einen `services/notes.service.ts` und darin Methoden, um die gerade erstellen Endpunkte im Backend anzusprechen. Nutze dafür den Angular `HttpClient` und mindestens einmal die native `fetch()`-Methode
+
+## Aufgabe 5
+
+a. Erstelle im Frontend eine Seite `/cities`, die alle Städte, inklusive Wetterdaten anzeigt, über die Notizen im Backend verfügbar sind. Für jede Stadt soll eine einzelne `weather-card` genutzt werden und die Wetterdaten sollen über den `@Input()` an die Komponente übergeben werden. Die Anzeige soll responsiv sein, d.h auf verschiedenen Bildschirmgrößen gut aussehen. Nutze dafür eine Methode deiner Wahl (z.B `flexbox`, `grid`, `media-queries` oder Kombination davon)
+
+---
+
+b. Binde die Notizen sinnvoll in dein User-Interface ein, sodass sie in einer `weather-card` angezeigt werden können.
+
+---
+
+c. Erstelle eine Seite `/cities/:name`, die eine Stadt mit ihren Wetterdaten und Notizen anzeigt.
