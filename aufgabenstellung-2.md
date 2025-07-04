@@ -9,7 +9,7 @@ a. Erstelle zunächst Projektordner für Front- und Backend. Das Frontend soll i
 Die Ordner-Struktur sollte nun wie folgt aussehen:
 
 ```
-angular-express-project/
+weather-app/
 ├─ frontend/
 ├─ backend/
 ```
@@ -110,6 +110,8 @@ c. Erstelle eine `notes.js`. Diese Datei imitiert eine Datenbank und entält in 
 }
 ```
 
+Lege ein paar Demo-Einträge an.
+
 <details>
     <summary>⚠️ Hinweis</summary>
     Beachte, dass das obige Objekt keine Wetterdaten enthält. Diese Daten werden nämlich durch die API des externen Anbieters, z.B weatherapi.com, bereitgestellt und müssen von uns nicht zwingend gespeichert werden.
@@ -139,3 +141,7 @@ f. Erstelle DELETE-Endpunkte `/notes/:id/:noteId` und `/notes/:name/:noteId`, di
 ---
 
 g. Überlege dir, wie die Funktionen der in den vorherigen Teilaufgaben erstellen Endpunkte sinnvoll in das User-Interface integriert werden können und implementiere die Funktionen in das Frontend.
+
+---
+
+h. Erstelle einen `services/notes.service.ts` und darin Methoden, um die gerade erstellen Endpunkte im Backend anzusprechen. Nutze dafür den Angular `HttpClient` und mindestens einmal die native `fetch()`-Methode
