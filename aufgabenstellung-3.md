@@ -7,7 +7,7 @@ Beispiel:<br>
 
 ## Aufgabe 2
 
-Gegeben ist ein Express-Backend, das Witze liefert, mit folgenden Endpunkten:
+Gegeben ist ein Express-Backend (`server.js` in "Aufgabe 2"), das Witze liefert, mit folgenden Endpunkten:
 
 **Erhalte einen neuen Witz:**
 
